@@ -1,0 +1,14 @@
+{
+  "name": "superheroes-bun-js",
+  "module": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "supertest": "^6.3.3"
+  }
+}
