@@ -20,4 +20,6 @@ function startBunServer() {
   });
 }
 
+startBunServer()
+
 export default startBunServer;

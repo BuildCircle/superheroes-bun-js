@@ -3,8 +3,6 @@ import startBunServer from "./index";
 import request from "supertest";
 const baseURL = "http://localhost:8080"
 
-startBunServer();
-
 test("Server returns 200", async () => {
     const response = await request(baseURL).get("/battle?hero=Batman&villain=Joker");
 
