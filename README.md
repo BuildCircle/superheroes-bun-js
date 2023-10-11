@@ -6,6 +6,13 @@ The `battle` function in `src/main.ts` takes a hero name, and a villain name, an
 
 The characters and their stats are stored in a json file stored in AWS S3 - https://s3.eu-west-2.amazonaws.com/build-circle/characters.json
 
+## Commands
+To run tests, install bun from https://bun.sh/, then run command.
+
+```
+bun test
+```
+
 ## Task
 
 Note: This tech test is deliberately loose. We're looking for your opinions and coding style.
